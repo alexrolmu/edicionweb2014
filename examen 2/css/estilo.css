@@ -1,0 +1,241 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
+
+body{
+	margin: 0;
+	border: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+header{
+	background-image: url(../img/saco.jpg);
+	background-size: cover;
+	color: white;
+	height: 820px;
+}
+.wrap-header {
+	width: 1190px;
+	margin: 0 auto;
+	padding: 0;
+}
+header .banner {
+	width: auto;
+	background: #02918c;
+	margin: 0 auto;
+	height: 61px;
+}
+header h1 {
+	padding-top: 10px;
+	margin: 0 auto;
+	font-size: 26px;
+	color: #65b0ef;
+	text-decoration: none;
+}
+header h1 a {
+	text-decoration: none;
+	color: #cfc91d;
+	font-weight: bold;
+}
+header h1 span{
+	font-weight: bold;
+	color: white;
+}
+
+header .wrap-menu{
+	float: right;
+	margin-top:-30px;
+}
+header .menu {
+	padding: 0;
+	list-style: none;
+}
+header .menu .item {
+	display: inline-table;
+	margin-left: 51px;
+	font-weight: 300;
+}
+header .menu .item a {
+	color:white;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+header .menu .item a:hover {
+	color: #white;
+	font-weight: 400;
+}
+.clearfix {
+	clear: both;
+}
+
+header .titulos {
+	text-align: center;
+	margin-top: 210px;
+}
+header .titulos .lema1 {
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+header .titulos .lema2 {
+	padding-left: 40px;
+	font-weight: 800;
+	font-size: 68px;
+	letter-spacing: 25px;
+}
+header .titulos .lema3 {
+	font-weight: 400;
+	font-size: 18px;
+}
+header .header-footer .boton {
+	margin-top: 47px;
+	background: #cfc91d;
+	border: #cfc91d;
+	font-weight: 800;
+	letter-spacing: 2px;
+	padding: 10px 38px 10px 38px;
+	cursor: pointer;
+}
+header .llave {
+	padding-top: 52px;
+}
+
+.lorem {
+	text-align: center;
+	margin: 0 auto;
+	width: 878px;
+}
+.lorem h3 {
+	margin: 0;
+	padding-top:96px;
+	color: #02918c;
+	font-weight: bold;
+	font-size: 46px;
+}
+.lorem img {
+	margin: 0;
+	padding-top:30px;
+}
+.lorem .texto {
+	color: #7e8287;
+	font-size: 16px;
+	line-height:30px;
+}
+.lorem span {
+	font-weight: bold;
+}
+.clearfix {
+	clear: both;
+}
+
+.iconos {
+	color: #7e8287;
+	text-align: center;
+	margin: 0 auto;
+	width: 1180px;
+	padding-top: 70px;
+	margin-bottom: 100px;
+	
+}
+.iconos .info-wrap {
+	margin: 0 auto;
+	position: relative;
+	display: inline-table;
+}
+
+.info-wrap {
+	text-align: center;
+	width: 160px;
+	height: 260px;	
+	float: left;
+	padding: 0px 65px 0px 65px ;
+	border-radius: 1px solid #c4c4c4;
+	
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+.todo {
+	padding: 0 auto;
+}
+
+.Services {
+	float: left;
+	background: #f0f0e8;
+	float: left;
+	width: 50%;
+	height: 771px;
+}
+.Services .dentro {
+	margin: 0 auto;
+	width: 475px;
+}
+.todo .Services .dentro h3 {
+	text-align: left;
+	margin: 0 auto;
+	padding-top: 70px;
+	color: #02918c;
+	font-weight: bold;
+	font-size: 46px;
+}
+.Services .dentro .divisor{
+	padding-top:30px;
+	text-align: left;
+	margin: 0;
+}
+.Services p {
+	padding-top:20px;
+	margin: 0 auto;
+	text-align: left;
+	color: #7e8287;
+	font-size: 11px;
+}
+
+.Services .wrap {
+	color: #7e8287;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.Services .wraps {
+	color: #7e8287;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.Services .Servicios .ser-wrap h4{
+	text-align: left;
+	color: #7e8287;
+	margin: 2px;
+	padding: 0 auto;
+}
+.Services .Servicios .ser-wrap {
+	width: 167px;
+	height: 0 auto;	
+	padding: 0px 70px 0px 0px;
+}
+
+.Services .Servicios .wrap .ser-wrap :last-child {
+	padding: 0;
+	float: right;
+}
+
+.Services .Servicios .ser-wrap p {
+	padding: 0 0 30px 0;
+}
+.Services .Servicios .ser-wrap img{
+	margin: 0 auto;
+	padding: 0;
+}
+.Services .dentro .ser-wrap {
+	margin: 0 auto;
+	float: left;
+}
+.clearfix {
+	clear: both;
+}
+
+.enmedio {
+	float: right;
+	width: 50%;
+}
